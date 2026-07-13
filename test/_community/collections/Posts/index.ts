@@ -13,7 +13,6 @@ export const PostsCollection: CollectionConfig = {
     {
       name: 'title',
       type: 'text',
-      localized: true,
     },
     {
       name: 'content',
@@ -23,9 +22,4 @@ export const PostsCollection: CollectionConfig = {
       }),
     },
   ],
-  versions: {
-    drafts: {
-      autosave: false,
-    },
-  },
 }
